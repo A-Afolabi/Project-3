@@ -1,128 +1,134 @@
-# GA PROJECT 3- FACECOOK
+# General Assembly Project 3 - FaceCook
 
-## BRIEF
-My first full-stack project, as part of a group of 3, was to create an application using the full MERN stack. FaceCook is a social media app where you can share recipes and plan your meals. I thoroughly enjoyed this project and learnt a lot from the time spent working on it. 
+## Project Overview
 
-My newly learnt technologies for this project were Express, Node.js, MongoDB and React Calendar. 
+Project 3 was my first full-stack application and the first project built as part of a team. The application created used the MERN stack and included RESTful API. The project had a 9-day duration before needing to be presented to both instructors and other students on the course. While on the software engineering immersive course at General Assembly, this third project was very taxing but also very beneficial and my favourite project. I learned a lot while doing this project, through some struggles, and from my other group members [Tony Haunschmidt](https://github.com/tonyhaunschmidt/) and [Ryan Arnold](https://github.com/RY44). 
 
-Made in collaboration with [Ryan Arnold](https://github.com/RY44) and [Ayo Afolabi](https://github.com/A-Afolabi).
+As a group, we settled on an idea for our app very quickly. Our app was a social media food app where you could share, favourite and plan meals.
 
-## TIMEFRAME
 
-7 Days
+## Deployed Project
 
-## TECHNOLOGIES
-* JavaScript
+[FaceCook](https://facecook.herokuapp.com/) 
+
+
+## Brief
+
+* Build a Fullstack application by creating your own backend and frontend.
+* Use an Express API to serve your data created with MongoDB Mongoose and Node.
+* Consume your API with a separate frontend built with React.
+* Be a complete product with multiple relationships and CRUD functionality for at least a couple of models.
+
+
+## Concept
+
+With my previous project still fresh in my mind, I felt the planning phase of this one was something our group would value most if done with a good amount of detail. This was echoed by my other group members and we took the planning stage as a very important and integral part of the project. While planning we were able to have a collective vision of what the final outcome would look like and easily separate the workload into different tasks we could do collectively and individually.
+
+Once ideas were bounced off each other, we settled for the social media food app and then commenced wireframing. This concept came from one of our group members using a food delivery service and speaking about ways he thought it could be better. From there, I mentioned how I often use myFitnessPal to track what I am eating for calories, protein, carbs, etc. This brought about the idea of combining the two with additional features.
+
+The planning process was fairly smooth throughout, with everyone in the team open to ideas and suggestions to ultimately help bring the best version of our vision to life. During the project, we met every day and worked throughout the entire day. There were a lot of late nights but on the weekend we had a more relaxed individual schedule to try and do what we could as a bonus. When working together we regularly utilised VS Code’s Live Share feature so we could minimise conflicts, but on the weekend we just communicated through Slack what we planned to do in our own time.
+
+FaceCook is a social media application with the main purpose being the ability to share and see other recipes. Without the need to log in, users can search and browse through recipes. With an account and logged in, the additional features a user gets are the ability to create and edit a recipe, leave comments, like recipes and follow other faceCook users. In addition, the ability to customise their own profile page, create meal plans and even generate shopping lists.
+
+
+## Technologies Used
+
+#### Front-end:
 * HTML
-* CSS
-* SASS
+* CSS/SCSS
+* JavaScript (ES6)
 * React
-* React Calendar
+* JSX
+* Axios
+* Google Font
+#### Back-end:
 * Node.js
 * Express
-* Mongoose
 * MongoDB
-
-## [OPEN IN BROWSER](https://gafacecook.herokuapp.com/)
-Without logging in you can enjoy searching and browsing through recipes and view other faceCook users' profile pages. Please create an account and log in to experience additional features such as creating and editing a recipe, leaving comments, liking recipes and following fellow faceCook users, customising your own profile page, creating a meal plan and generating shopping lists for your selected periods. 
-
-## OUTLINE
-FaceCook is a social media application with the main purpose of being able to share your own recipes with other users. 
-
-Users can find recipes on the home page in 3 ways: 
-* Our featured recipes bar- These recipes are specially selected by the faceCook team to show on the homepage for a limited amount of time. 
-* Our discover recipes bar- These recipes are randomly selected from all the recipes that have been uploaded to our site. This bar will refresh on every page visit. 
-* Our search bar- Use our search bar to find specific recipes based on your search criteria. The search function will run through the recipe names, ingredients and tags to try to find all suitable matches. 
-
-Once the user has found an interesting recipe they can click into that recipe to view a full detailed page including cooking time, meal type, the user who posted the recipe to the site, the average rating given by faceCook users, a description of the dish, the cooking method, ingredients, tags and reviews. If the user is logged in on this page, they can also save the recipe to their favourites or leave a review. 
-
-If they like the dish and are interested to see what else the owner of this recipe has posted, they can click onto their profile page where they can see a profile card containing a self-written bio, a brief statistic of the quantity of their recipes, favourited recipes, followers and followings next to a more detailed list view of all their recipes and favourited recipes. If the user is logged in on this page, they can also follow or unfollow the user which gives them the benefit of their newly posted recipes showing up on their own profile page.
-
-Additionally when the user is logged in and views their own profile page, they have the ability to update their name, bio and profile image as well as using another one of the site's main features- the meal plan calendar. To use the meal plan calendar, simply click on the date you want to plan your meals for, use the drop downs to select the meals and serving quantities you want and click confirm. Please note that the meal drop down consists only of your own meals or meals you have favourited. Also please note that not all the recipes have ingredients uploaded for each serving quantity so to get the best use of this feature and the shopping list feature, please ensure the meals you are selecting have the correct serving quantities for your needs.
-
-To use the shopping list feature, once you have completed your meal plan for the time period you want, simply navigate to the shopping list page, select the dates for that time period and click 'Go'. This will generate a run down of your meal plan for this time period and a shopping list which condenses all the ingredients for each meal into one simple list.  
-
-To view your own recipes and favourited recipes, you can navigate to the my recipes page where you are also prompted to the add recipe form. This is a simple and self explanatory form where you can upload your own recipes to the site.
-
-## PLANNING
-As this was our first project working in a group of more than two, we all felt that planning was going to be an important step in the project in order to all be behind a shared vision of what we want the final outcome to look like as well as giving us the ability to separate the work into different tasks that can be done by us individually. 
-
-During our first meeting which was to pitch ideas to each other and decide on a general concept in which to run with, my idea was selected in addition to me adopting a team leader role. That night I spent time wireframing the front-end of the application to demonstrate the user experience and to help my project co-workers and I get behind a shared vision. Once I had the general front-end planned out I spent time creating a first draft data structure that we would need in the back-end in order to make it work.  
-
-![initial wireframe](readme_assets/initial_wireframe.png)
-
-The next day, we as a team reviewed the initial wireframe I made in order to develop and integrate ideas from all the team members. Once we had the idea fully formatted between us, we then went on to develop the branding in which we came up with a name, logo and general colour scheme and design we wanted to use on our front-end. This helped us formulate the final wireframe together. The final wireframe was extremely useful during the rest of production as it was easy to stick to and it meant that all the primary decision making was done, leaving us to code through each component and limited any kind of major revisions that would arise from inconsistencies between each of our work.   
-
-![final wireframe](readme_assets/final_wireframe.png)
-
-Having the final wireframe was also useful to then revise the initial back-end data structure I had come up with in which we pseudo-coded most parts of the front-end functionality. This really helped us understand the best way to structure our database and also list the controllers that we would need to code on the back-end to make it work. We all felt it was best to fully complete the back-end before moving on to the front-end to avoid any need for major revisions so it was important for us to be rigorous in this step.
-
-We also took this opportunity of working in a group of 3 to utilise Trello. Once we had finalised planning everything that needed to be produced we then broke down the entire project into bitesize steps which we created a card for and added to the ToDo list on our Trello board. We also assigned each card a colour code to help us easily identify which part of the project that task is in and during production moved the card from the ToDo list to the WIP list and assigned our names to it so we can each keep track of who is working on what and when before then moving the card to the Complete list. We also had extra lists for stretch goals, and cards we wanted to revisit or review as a team as well as a separate list to list key information such as a link to our final wireframe or an example recipe to showcase the data structure that we decided upon.
-
-![trello board](readme_assets/trello.png)
-
-During production we had daily stand up meetings first thing in the morning in which we talked about any issues we were having and what we were aiming to achieve that day. For the rest of the day we typically remained on a shared Zoom call where we can ask each other for guidance or opinions as and when we needed it.  
-
-We as a team decided to code the entire backend together and I also went on to code the home page and search page as well as the profile pages, my recipes page, shopping list and navigation bar.
-
-## EXPRESS
-
-Learning Express as a framework was a great introduction to developing our own back-end and introducing Node.js. We used Mongoose as the ODM to interact with our MongoDB database.
-
-As mentioned above, the data structure was well planned out during the planning stage. We coded two models. One for the Users and one for the Recipes. Below is the code for the Recipe model in which, as well as the main Recipe schema, we included a sub schema for the reviews and also an average rating virtual field before calling them in the Mongoose model.
-
-![recipe model](readme_assets/recipe_model.png)
-
-We wanted to demonstrate all CRUD operations within our controllers. You can see all 4 operations coded to be used on the Recipe collection below. All 4 of the routes where these controllers are called, except the getOneRecipe controller, have a secure route middleware called before the controller (demonstrated below). This means that the user needs to be logged in when making these requests. However for the delete and edit controllers we wanted to implement an additional check so that only the owner of the recipe can delete or edit their recipe. We also implemented in this check that a faceCook admin user can also delete or edit a recipe. This is so we can safeguard against unwanted content on our site.
-
-![CRUD](readme_assets/CRUD.png)
-
-As mentioned above we included a secure route middleware. In this function we used the jwt.verify method in order to verify the token before using it to see if it matches a user in our database and only then will the controller pass. 
-
-![secure route](readme_assets/secure_route.png)
-
-![routes](readme_assets/routes.png)
+* Mongoose
+* JsonWebToken
+* Cloudinary
+#### Development Tools:
+* VS code
+* Insomnia
+* Git & GitHub
+* Zoom
+* Slack
+* Trello
+* Excalidraw
+* Heroku
 
 
-## CONCLUSION AND KEY LEARNING
+## Approach Taken
 
-There was a lot to get our head around with this introduction to creating our own back-end. There was the general concept of the MERN stack and how each of these interacted with each other as well as understanding individual elements like JSON Web Tokens, authentication, what controllers are and how they interact with the models and database and building the routes so clients can make requests to our API.
+### Day 1-2
+#### Planning
+This was the first project I was doing where I would be collaborating with others, and as I already mentioned above, planning was an important part of it. During the first day we spent the majority of the time planning out how the app would work, the features we would implement, what was feasible and some stretch goals if time permitted us. Once we had a fair few concrete Ideas that would 100% be implemented, we began to wireframe.
 
-This project really emphasised to me the importance of documentation and gave me a lot of opportunity to practise finding the information I needed and the confidence to implement my findings in my own code.  
+The next day we further touched up on our wireframe, which was done using Excalidraw, by reviewing our ideas from the night before. Once we settled on these we moved on to the branding where we came up with FaceCook. This played off the social media site Facebook and having our meal attributes incorporated in the name. Doing the branding as part of our wireframe helped during the rest of the project, particularly when it came to the front-end. This also helped minimise changes during the process and limited any inconsistencies in our work.
 
-It was great working in a team with Ryan and Ayo and I feel like we did well to keep organised and thoroughly plan through the project before diving into the code. We worked efficiently and complemented each other's strengths and helped each other when needed. I am looking forward to working in a team with other software professionals moving forward in my career. 
+![Screenshot 2023-02-27 at 23 11 39](https://user-images.githubusercontent.com/95321738/221710346-afb69caf-4292-411b-9c53-3c7b6005032f.png)
 
-#### CHALLENGES
-* Devising the best UX in which to implement the meal plan MVP. 
+The wireframe in this much detail helped when it came to reviewing the structure of our project throughout the process of building it. This first became evident during the back-end data structure and then later on during the front-end for functionality and styling. As a group, we completed the back-end together first before moving on to the front-end. This ensured we did not run into any conflicts in our code or inadvertently deviate from the collective direction.
 
-#### WINS
-* Carrying out very detailed planning that helped us structure the backend and agree on a clear conception for the front end.
-* Getting to grips with the full MERN stack and further developing my React skills.
-* Working well in a team.
+Working in a group of three presented the opportunity to break down the entire project we had agreed upon, into smaller tasks and stages with the use of Trello. We used different colours for our cards to identify what part of the project a task was on, and moved cards to different areas depending on the current status. We also assigned ourselves cards to avoid confusion and make it easy for everyone to keep track of who was doing what.
 
-## FUTURE IMPROVEMENTS
+![Screenshot 2023-02-27 at 23 14 54](https://user-images.githubusercontent.com/95321738/221710771-a2ffe532-4dfd-424a-9670-f6a978a62237.png)
 
-Incorporate nutritional information in the recipes similar to MyFitnessPal. This would be an awesome feature in the meal plan and shopping list so that you can see a breakdown of your nutritional information across any given period. 
-
-At the moment the shopping list functionality is not optimal in that often it will have 2 or more of the same ingredient that doesn't compile (i.e. '10 grams' & '30 g' will show as 2 different item lists rather than combining to show '40 g'). Having dropdowns for the measurements and suggested items in the add recipe form would be a good step or to write code that can recognise the common similar measurements and items.
-
-Currently the user needs to be aware of how many servings are in each recipe whilst building their meal plan. It would be good to code the drop down list so that the serving quantities that the recipe owner did not input are blocked out from the options. 
-
-I would love to develop the search function much more but due to the limited time for this project it only searches for the string inputted in the search bar to an exact match in either the recipe names, ingredients or tags. An example improvement would be if you typed in 'Onions' rather than 'Onion' it would find you the same results.  
-
-#### KNOWN BUGS
-We use the cloud-based image service, Cloudinary to upload the users' recipe and profile images and then on display, link them to the Cloudinary URL. Since deployment, the images upload to cloudinary fine but our site is showing the default placeholder.
-
-If you follow one user, all users then show an 'Unfollow' button on their profile even if you do not follow them. To follow any additional user after the first one you have to press the 'unfollow' button and then the 'follow' button.  
+During the whole production process, we had daily stand-up meetings in the morning where we could discuss our progress and issues, aim for the day, and provide support to others. As a group we decided to work on zoom together, muted but able to ask for help quickly if we ran into problems or needed advice. I found this very beneficial throughout the project and I was able to learn a lot from my group members while working on the recipes page in particular. To allocate tasks, we would simply pick something from Trello we wanted or needed to be done first, due to other tickets potentially relying on a task being completed before it could be done. Before picking up a task we would notify each other to ensure we don’t run into any conflicts or issues with picking up a particular task at a certain point.
 
 
-## CONTACT
-I would love to receive any feedback or hear about any of your similar projects. Please get in touch!
+### Day 3-5 
+#### Express
+Having a well-planned data structure provided us with clarity when starting and is likely to be a key reason why collectively we managed to complete our back-end in 2 days. In these two days, we created our models for the recipe and user, controllers for the profile, recipes and auth, and config for the routes and secure routes. This allowed us more time when it came to the front-end, something that we felt would be necessary. Although we started a little bit of seeding the data while doing the back-end, once we were all on individual pages, we took some time out each day to do a bit more towards the end of the project.
 
-tonyhaunschmidt@gmail.com
+In order for us to demonstrate all CRUD operations within our controllers, in the example below for our Recipe collection, all routes are secure ones with middleware called before the controller (apart from getOneRecipe controller). While this meant the users needed to be logged in to make these requests, for our delete and edit controllers we needed to ensure the correct owner of the recipe could do this. This is where we added an additional check to do so but also had admin control where faceCook admin users could also delete or edit.
 
-[tonyhaunschmidt.com](https://www.tonyhaunschmidt.com/)
+![Screenshot 2023-02-27 at 23 18 11](https://user-images.githubusercontent.com/95321738/221711255-c9356f7c-67cd-41e1-8462-c532e5f10276.png)
 
-[LinkedIn/tonyhaunschmidt](https://www.linkedin.com/in/tony-haunschmidt/)
+With the use of JSON web tokens, we managed to add the secure route middleware to verify the token before using it. This would ensure the token matched the one for the correct user in our database, and if so then be passed by the controller.
 
-[My GitHub Profile and Other Projects](https://github.com/tonyhaunschmidt)
+![Screenshot 2023-02-27 at 23 20 00](https://user-images.githubusercontent.com/95321738/221711496-499facfa-a12a-4630-87ed-0b4fadd54a36.png)
+
+
+### Day 6-9
+#### React
+After working together to complete all of the controllers and routes correctly in the previous two days, we moved on to the front-end where we first began working on the Home page together, before breaking off and working on individual pages.
+
+This was helpful to me as it allowed me to learn from my other group members as well as offer some potential solutions to errors occurring. When I moved onto the recipe page I found that I was making some mistakes which I could correct by referring back to the home page we did together. I was also able to ask my colleagues for help due to being in a great team where I felt comfortable doing so. I found most of the errors I was having were syntax related. Once the functionality and the page were working as intended, I was able to follow the layout and styling from our wireframe to present a satisfying result.
+
+Most of the content on the page was simple enough to pull off using `dot notation`, but getting the rating system to work and particularly setting up the CRUD functionality was pleasing to me.
+
+![Screenshot 2023-02-27 at 23 23 04](https://user-images.githubusercontent.com/95321738/221711949-6928daae-e544-4a85-91c8-53a2fc8ee892.png)
+
+The last full day was the 8th day when we were still finishing off some of the front-end, but we had scheduled to start styling on this day in our plan. We were able to split the style to the pages we worked on individually but at this point, I was able to help with some styling on some other pages, but mostly add more seeding that we were lacking. Fortunately, functionally our app was working as intended on the last day and we only had a little bit of styling to do. Although we never managed to complete all of our stretch goals within the timeframe of the project, we managed to incorporate all of our MVPs and some of these bonus stretch goals.
+
+
+## Wins
+
+* Although challenging to implement creating our own back-end through the MERN stack only taught the week before, working together helped elevate major issues
+* Understanding and utilising documentation and its importance.
+* The importance and thoroughness of our planning.
+* Working with both Tony and Ryan was an invaluable experience and I learnt a lot from them. I appreciated their patience at times as well as being able to contribute significantly while learning from the two of them.
+
+
+## Challenges
+
+* I struggled to get to grips with some of the MERN stack initially but really enjoyed passing the early hurdles.
+  * Understanding models, controllers, schema, etc. This took a bit of time to understand and fully grasp but it is something I am continually getting used to now.
+* Incorporating everything within the timeframe.
+  * This project really opened me up to how much detail can be done in the planning stage. Thanks to that, we managed to hit most of our intended MVPs but not all of our stretch goals. The extent and detail put into planning felt a bit excessive at first but it is something we greatly benefited from and I will continue to do in the future.
+
+
+## Key Learnings
+
+* During the 3 days of building our back-end, there were initial challenges of understanding some parts of the MERN stack that we overcame. 
+* Having the chance to go over React from scratch again in the project benefited me, and I learnt a lot from doing so while in a group environment where my peers could offer support.
+* How to work well in a team and generally feel comfortable throughout the projects no matter what issues occur.
+
+
+## Future Features
+
+* Incorporating a nutritional information breakdown, similar to MyFitnessPal
+* Improving the functionality of the shopping list feature
+* Resolving the following multiple users’ issue when trying to follow more than one user and all other users after the initial one show unfollow, despite not following them.
